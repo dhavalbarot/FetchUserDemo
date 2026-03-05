@@ -1,5 +1,5 @@
 # FetchUserDemo
-// ![App](images/App.png)
+![App](images/App.png)
 // A SwiftUI application to fetch and display user data, built with a focus on clean architecture and robust test coverage.
 
 // Architecture
@@ -18,7 +18,7 @@
 // - Mock services and mock view models are used for isolated and deterministic tests.
 // - Test coverage is above 80%.
 
-// ![Code Coverage](images/CodeCoverage.png)
+![Code Coverage](images/CodeCoverage.png)
 
 // Getting Started
 
