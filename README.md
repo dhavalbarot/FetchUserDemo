@@ -20,7 +20,7 @@ This project uses the Model-View-ViewModel (MVVM) architecture with SwiftUI:
 - Mock services and mock view models are used for isolated and deterministic tests.
 - Test coverage is above 80%.
 
-<img src="images/CodeCoverage.png.png" alt="Code Coverage" height="200"/>
+<img src="images/CodeCoverage.png" alt="Code Coverage" height="200"/>
 
 ## Getting Started
 
