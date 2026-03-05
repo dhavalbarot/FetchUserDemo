@@ -1,6 +1,6 @@
 //
-//  featchUserApp.swift
-//  featchUser
+//  fetchUserApp.swift
+//  fetchUser
 //
 //  Created by Dhaval Barot on 02/03/26.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct featchUserApp: App {
+struct fetchUserApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -1,12 +1,12 @@
 //
 //  UserServiceTests.swift
-//  featchUser
+//  fetchUser
 //
 //  Created by Dhaval Barot on 02/03/26.
 //
 
 import XCTest
-@testable import featchUser
+@testable import fetchUser
 
 class UserServiceTests: XCTestCase {
   

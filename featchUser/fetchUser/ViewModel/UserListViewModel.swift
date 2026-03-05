@@ -1,6 +1,6 @@
 //
 //  UserListViewModel.swift
-//  featchUser
+//  fetchUser
 //
 //  Created by Dhaval Barot on 02/03/26.
 //

@@ -1,13 +1,13 @@
 //
 //  MockNetworkManager.swift
-//  featchUser
+//  fetchUser
 //
 //  Created by Dhaval Barot on 02/03/26.
 //
 
 import Foundation
 import Testing
-@testable import featchUser
+@testable import fetchUser
 
 // Now the mock doesn't need to inherit from the real class at all
 final class MockNetworkManager: NetworkManaging {

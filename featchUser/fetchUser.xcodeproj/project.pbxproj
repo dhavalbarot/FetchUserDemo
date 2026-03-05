@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		A3D95A8B2F55713B00F504E4 /* PBXContainerItemProxy */ = {
+		A3EC60B52F59856A0029312C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A3D95A332F555B5E00F504E4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A3D95A3A2F555B5E00F504E4;
-			remoteInfo = featchUser;
+			remoteInfo = fetchUser;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A3D95A3B2F555B5E00F504E4 /* featchUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = featchUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3D95A872F55713B00F504E4 /* featchUserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = featchUserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D95A3B2F555B5E00F504E4 /* fetchUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fetchUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EC60B12F59856A0029312C /* fetchUserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fetchUserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A3D95A3D2F555B5E00F504E4 /* featchUser */ = {
+		A3D95A3D2F555B5E00F504E4 /* fetchUser */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = featchUser;
+			path = fetchUser;
 			sourceTree = "<group>";
 		};
-		A3D95A882F55713B00F504E4 /* featchUserTests */ = {
+		A3EC60B22F59856A0029312C /* fetchUserTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = featchUserTests;
+			path = fetchUserTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -42,7 +42,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3D95A842F55713B00F504E4 /* Frameworks */ = {
+		A3EC60AE2F59856A0029312C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,8 +55,8 @@
 		A3D95A322F555B5E00F504E4 = {
 			isa = PBXGroup;
 			children = (
-				A3D95A3D2F555B5E00F504E4 /* featchUser */,
-				A3D95A882F55713B00F504E4 /* featchUserTests */,
+				A3D95A3D2F555B5E00F504E4 /* fetchUser */,
+				A3EC60B22F59856A0029312C /* fetchUserTests */,
 				A3D95A3C2F555B5E00F504E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,8 +64,8 @@
 		A3D95A3C2F555B5E00F504E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3D95A3B2F555B5E00F504E4 /* featchUser.app */,
-				A3D95A872F55713B00F504E4 /* featchUserTests.xctest */,
+				A3D95A3B2F555B5E00F504E4 /* fetchUser.app */,
+				A3EC60B12F59856A0029312C /* fetchUserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A3D95A3A2F555B5E00F504E4 /* featchUser */ = {
+		A3D95A3A2F555B5E00F504E4 /* fetchUser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3D95A462F555B5F00F504E4 /* Build configuration list for PBXNativeTarget "featchUser" */;
+			buildConfigurationList = A3D95A462F555B5F00F504E4 /* Build configuration list for PBXNativeTarget "fetchUser" */;
 			buildPhases = (
 				A3D95A372F555B5E00F504E4 /* Sources */,
 				A3D95A382F555B5E00F504E4 /* Frameworks */,
@@ -86,36 +86,36 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A3D95A3D2F555B5E00F504E4 /* featchUser */,
+				A3D95A3D2F555B5E00F504E4 /* fetchUser */,
 			);
-			name = featchUser;
+			name = fetchUser;
 			packageProductDependencies = (
 			);
 			productName = featchUser;
-			productReference = A3D95A3B2F555B5E00F504E4 /* featchUser.app */;
+			productReference = A3D95A3B2F555B5E00F504E4 /* fetchUser.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A3D95A862F55713B00F504E4 /* featchUserTests */ = {
+		A3EC60B02F59856A0029312C /* fetchUserTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3D95A8D2F55713B00F504E4 /* Build configuration list for PBXNativeTarget "featchUserTests" */;
+			buildConfigurationList = A3EC60B72F59856A0029312C /* Build configuration list for PBXNativeTarget "fetchUserTests" */;
 			buildPhases = (
-				A3D95A832F55713B00F504E4 /* Sources */,
-				A3D95A842F55713B00F504E4 /* Frameworks */,
-				A3D95A852F55713B00F504E4 /* Resources */,
+				A3EC60AD2F59856A0029312C /* Sources */,
+				A3EC60AE2F59856A0029312C /* Frameworks */,
+				A3EC60AF2F59856A0029312C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A3D95A8C2F55713B00F504E4 /* PBXTargetDependency */,
+				A3EC60B62F59856A0029312C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A3D95A882F55713B00F504E4 /* featchUserTests */,
+				A3EC60B22F59856A0029312C /* fetchUserTests */,
 			);
-			name = featchUserTests;
+			name = fetchUserTests;
 			packageProductDependencies = (
 			);
-			productName = featchUserTests;
-			productReference = A3D95A872F55713B00F504E4 /* featchUserTests.xctest */;
+			productName = fetchUserTests;
+			productReference = A3EC60B12F59856A0029312C /* fetchUserTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -131,14 +131,14 @@
 					A3D95A3A2F555B5E00F504E4 = {
 						CreatedOnToolsVersion = 26.2;
 					};
-					A3D95A862F55713B00F504E4 = {
+					A3EC60B02F59856A0029312C = {
 						CreatedOnToolsVersion = 26.2;
 						LastSwiftMigration = 2620;
 						TestTargetID = A3D95A3A2F555B5E00F504E4;
 					};
 				};
 			};
-			buildConfigurationList = A3D95A362F555B5E00F504E4 /* Build configuration list for PBXProject "featchUser" */;
+			buildConfigurationList = A3D95A362F555B5E00F504E4 /* Build configuration list for PBXProject "fetchUser" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -152,8 +152,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3D95A3A2F555B5E00F504E4 /* featchUser */,
-				A3D95A862F55713B00F504E4 /* featchUserTests */,
+				A3D95A3A2F555B5E00F504E4 /* fetchUser */,
+				A3EC60B02F59856A0029312C /* fetchUserTests */,
 			);
 		};
 /* End PBXProject section */
@@ -166,7 +166,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3D95A852F55713B00F504E4 /* Resources */ = {
+		A3EC60AF2F59856A0029312C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -183,7 +183,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3D95A832F55713B00F504E4 /* Sources */ = {
+		A3EC60AD2F59856A0029312C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,10 +193,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A3D95A8C2F55713B00F504E4 /* PBXTargetDependency */ = {
+		A3EC60B62F59856A0029312C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A3D95A3A2F555B5E00F504E4 /* featchUser */;
-			targetProxy = A3D95A8B2F55713B00F504E4 /* PBXContainerItemProxy */;
+			target = A3D95A3A2F555B5E00F504E4 /* fetchUser */;
+			targetProxy = A3EC60B52F59856A0029312C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -382,7 +382,7 @@
 			};
 			name = Release;
 		};
-		A3D95A8E2F55713B00F504E4 /* Debug */ = {
+		A3EC60B82F59856A0029312C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -391,21 +391,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.featchUserTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.fetchUserTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "featchUserTests/featchUserTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "fetchUserTests/fetchUserTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/featchUser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/featchUser";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fetchUser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fetchUser";
 			};
 			name = Debug;
 		};
-		A3D95A8F2F55713B00F504E4 /* Release */ = {
+		A3EC60B92F59856A0029312C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,23 +414,23 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.featchUserTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.fetchUserTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "featchUserTests/featchUserTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "fetchUserTests/fetchUserTests-Bridging-Header.h";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/featchUser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/featchUser";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fetchUser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fetchUser";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A3D95A362F555B5E00F504E4 /* Build configuration list for PBXProject "featchUser" */ = {
+		A3D95A362F555B5E00F504E4 /* Build configuration list for PBXProject "fetchUser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3D95A442F555B5F00F504E4 /* Debug */,
@@ -439,7 +439,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3D95A462F555B5F00F504E4 /* Build configuration list for PBXNativeTarget "featchUser" */ = {
+		A3D95A462F555B5F00F504E4 /* Build configuration list for PBXNativeTarget "fetchUser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3D95A472F555B5F00F504E4 /* Debug */,
@@ -448,11 +448,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3D95A8D2F55713B00F504E4 /* Build configuration list for PBXNativeTarget "featchUserTests" */ = {
+		A3EC60B72F59856A0029312C /* Build configuration list for PBXNativeTarget "fetchUserTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3D95A8E2F55713B00F504E4 /* Debug */,
-				A3D95A8F2F55713B00F504E4 /* Release */,
+				A3EC60B82F59856A0029312C /* Debug */,
+				A3EC60B92F59856A0029312C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
