@@ -10,7 +10,7 @@ import XCTest
 
 class UserServiceTests: XCTestCase {
   
-  var sut: UserService! // System Under Test
+  var sut: UserService!
   var mockManager: MockNetworkManager!
 
   override func setUp() {

@@ -8,13 +8,11 @@
 import Foundation
 
 protocol NetworkManaging {
-    func request<T: Decodable>(url: String) async throws -> T
+    func request<T: Decodable>(endpoint: EndPoint) async throws -> T
 }
 
 class NetworkManger: NetworkManaging {
- 
-  
-  
+   
   enum NetworkError: Error {
     case invalidURL
     case invalidResponse
@@ -28,8 +26,9 @@ class NetworkManger: NetworkManaging {
   
   private init() { }
   
-  func request<T>(url: String) async throws -> T where T : Decodable {
-    guard let url = URL(string: url) else {
+  func request<T>(endpoint: EndPoint) async throws -> T where T : Decodable {
+    guard let baseURL = URL(string: EndPoint.baseURL),
+            let url = URL(string: endpoint.urlString, relativeTo: baseURL) else {
       throw NetworkError.invalidURL
     }
     

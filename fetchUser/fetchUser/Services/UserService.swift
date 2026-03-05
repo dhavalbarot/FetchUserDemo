@@ -12,7 +12,6 @@ protocol UserServiceType {
 
 final class UserService: UserServiceType {
   
-  private let userRequestURL: String = "https://jsonplaceholder.typicode.com/users"
   private let networkManager: NetworkManaging
   
   init(networkManager: NetworkManaging = NetworkManger.shared) {
@@ -20,6 +19,6 @@ final class UserService: UserServiceType {
   }
   
   func fetchUsers() async throws -> [User] {
-    return try await networkManager.request(url: userRequestURL)
+    return try await networkManager.request(endpoint: .fetchUsers)
   }
 }
